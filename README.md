@@ -62,6 +62,7 @@ Script names carry the GEO accession of the tissue they operate on.
 - `GSM6248576_*` — pancreatic islets
 - `GSM6248577_*` — HepG2
 - `GSM624857[6-7]_*` — both tissues together
+
 Files ending `_figure_*` produce dissertation figures.
 Scripts are listed below in run order.
 
@@ -75,16 +76,16 @@ scripts/
 │   ├── GSM6248577_enrichmentprofile.r
 │   └── GSM624857[6-7]_enrichmentprofile_figure_topandbottom.r
 ├── 02_benchmarking/
-│   ├── GSM6248576_proteincodingGO_SD2GO_overlap.r
-│   ├── GSM6248577_proteincodingGO_SD2GO_overlap.r
 │   ├── GSM6248576_samegenelistGO_SD2GO_overlap.r
 │   ├── GSM6248577_samegenelistGO_SD2GO_overlap.r
+│   ├── GSM6248576_proteincodingGO_SD2GO_overlap.r
+│   ├── GSM6248577_proteincodingGO_SD2GO_overlap.r
 │   ├── GSM624857[6-7]_proteincodingGO_SD2GO_overlap_figure_sidebyside.r
 │   └── GSM624857[6-7]_samegenelistGO_SD2GO_overlap_figure_sidebyside.r
 ├── 03_motif_scanning/
 │   ├── GSM6248576_exportingpeaksequences-FASTA.r
 │   ├── GSM6248577_exportingpeaksequences-FASTA.r
-│   │   ⏸ FIMO (MA0046.1) on the MEME Suite web server
+│   │   ⏸ FIMO (MA0046.1) Using MEME Suite Web Server
 │   ├── GSM6248576_FIMO.r
 │   ├── GSM6248577_FIMO.r
 │   └── GSM624857[6-7]_motifpresence_figure_sidebyside.r
@@ -94,9 +95,9 @@ scripts/
 │   └── GSM6248576_proteincodingGO_proteincodingmotifGO_overlap_figure_sidebyside.r
 ├── 05_cofactor/
 │   ├── GSM6248576_HNF1A_with_withoutMOTIF.r
-│   │   ⏸ XSTREME on the motif-lacking FASTA (web server)
+│   │   ⏸ XSTREME on Motif-Lacking FASTA Using MEME Suite Web Server
 │   ├── HNF1A_STRING_interactors.r
-│   │   ⏸ FIMO for each partner-TF matrix (web server)
+│   │   ⏸ FIMO For Each Partner-TF Matrix Using MEME Suite Web Server
 │   └── GSM6248576_interactionpartners_enrichment.r
 ├── 06_peak_score/
 │   ├── GSM6248576_peakscore.r
@@ -107,8 +108,8 @@ scripts/
 │   ├── GSM624857[6-7]_FIMO_comparison.r
 │   └── GSM624857[6-7]_PPM_comparison_figure_topandbottom.r
 └── 08_gwas/
-    ├── intersect.sh
     ├── HNF1A_Matrix1.ipynb
+    ├── intersect.sh
     └── closest.sh
 ```
 
