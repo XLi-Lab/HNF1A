@@ -1,0 +1,16 @@
+# python dependencies for the HPC GWAS step
+# environment: HNF1A_04 (conda-managed) on the KCL CREATE cluster, Python 3.10.20
+
+# this file lists the notebook's direct dependencies, for reference.
+# to reproduce the environment, use conda_environment.yml:
+# conda env create -f conda_environment.yml
+
+pandas==2.3.3
+numpy==2.2.5
+pyarrow==23.0.1
+matplotlib==3.10.9
+requests==2.33.1
+
+# standard library (no install needed): os, glob, time
+# IPython's display() is provided by the Jupyter/IPython environment.
+# bedtools (v2.31.0) is an HPC system module (module load), not a pip package.
