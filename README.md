@@ -12,7 +12,7 @@ GWAS credible sets are from the [Open Targets Platform](https://platform.opentar
 ### Datasets
 
 | Accession | Tissue
-|---|---|---|
+|---|---|
 | GSM6248576 | Primary human pancreatic islets
 | GSM6248577 | HepG2 hepatocellular carcinoma
 
@@ -32,16 +32,22 @@ Small inputs are committed directly.
 - `GSM6248576_Islets_HNF1A_ab96777_peaks.bed.gz` — islet peaks (GEO GSE206240)
 - `GSM6248577_HepG2_HNF1A_ab96777_peaks.bed.gz` — HepG2 peaks (GEO GSE206240)
 - `JASPAR_HNF1A_MA0046.1.meme` — the primary HNF1A matrix used throughout
-- Eight partner-TF matrices used in the cofactor analysis: `HNF1B` (MA0153.2),
-  `HNF4A` (MA0114.5), `HNF4G` (MA0484.3), `ONECUT1` (MA0679.3), `FOXA2`
-  (MA0047.4), `FOXA3` (MA1683.2), `FOSL1` (MA0477.3), `JDP2` (MA0656.2)
+- Eight partner-TF matrices used in the cofactor analysis:
+`HNF1B` (MA0153.2),
+`HNF4A` (MA0114.5),
+`HNF4G` (MA0484.3),
+`ONECUT1` (MA0679.3),
+`FOXA2` (MA0047.4),
+`FOXA3` (MA1683.2),
+`FOSL1` (MA0477.3),
+`JDP2` (MA0656.2)
 
 Inputs *not* committed due to size, and where to obtain them.
 
 | Input | Source | Used By |
 |---|---|---|
-| GWAS Credible Sets (Parquet) | Open Targets Platform, release 26.03 | stage 08 |
-| GWAS Trait Labels | GWAS Catalog REST API | stage 08 |
+| GWAS Credible Sets (Parquet) | Open Targets Platform, Release 26.03 | Stage 08 |
+| GWAS Trait Labels | GWAS Catalog REST API | Stage 08 |
 
 ### `environment/`
 
