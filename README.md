@@ -2,9 +2,6 @@
 
 A motif-informed re-analysis of HNF1A ChIP-seq peaks and disease variants.
 
-This repository contains the code accompanying an MSc Applied Bioinformatics
-dissertation (King's College London).
-
 ## Data Availability
 
 All primary data used here is publicly available. 
@@ -15,7 +12,7 @@ GWAS credible sets are from the [Open Targets Platform](https://platform.opentar
 ### Datasets
 
 | Accession | Tissue
-|---|---|---|---|---|
+|---|---|---|
 | GSM6248576 | Primary human pancreatic islets
 | GSM6248577 | HepG2 hepatocellular carcinoma
 
@@ -55,8 +52,7 @@ Inputs *not* committed due to size, and where to obtain them.
 
 ## Pipeline
 
-The analysis alternates between R scripts run locally and manual steps performed
-on the MEME Suite web server. Manual checkpoints are marked ⏸ below.
+The analysis alternates between R scripts run locally and manual steps performed on the MEME Suite web server.
 
 | Stage | Key Output |
 |---|---|
